@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Reset Password</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+    .container {
+      max-width: 400px;
+      margin-top: 100px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2 class="mb-4">Reset Password</h2>
+    <p>Please enter your new password below.</p>
+    
+    <form action="/update-password" method="">
+      <div class="form-group">
+        <label for="password">New Password:</label>
+        <input type="password" class="form-control" id="password" name="password" required>
+      </div>
+      <div class="form-group">
+        <label for="confirm-password">Confirm New Password:</label>
+        <input type="password" class="form-control" id="confirm-password" name="confirm-password" required>
+      </div>
+      <button type="submit" class="btn btn-primary">Reset Password</button>
+    </form>
+  </div>
+  
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+</html>

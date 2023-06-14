@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+  
+  <title>LearnSphere</title>
+  <!---<link rel="stylesheet" href="styles.css">-->
+  <style>
+/* Reset some default styles for better consistency */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f8f8f8;
+  
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+/* Main styles */
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 15px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+ section{
+  font-size: 40 px;
+ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ 
+ }
+
+.course-card {
+  background-color: #fff;
+  
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
+
+.course-card img {
+  max-width: 100%;
+  margin-bottom: 10px;
+}
+
+.course-card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+
+  </style>
+  
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        
+          <li class="dropdown">
+            <a href="/createCourse" class="dropbtn">Courses</a>
+            <div class="dropdown-content">
+              <a href="#">Java Full Stack</a>
+              <a href="#">Testing Full Stack</a>
+              <a href="#">Full Stack </a>
+            </div>
+          
+        </li>
+        
+        <li class="dropdown">
+            <a href="/addLesson" class="dropbtn">Lessons</a>
+            <div class="dropdown-content">
+              <a href="#">Java Full Stack</a>
+              <a href="#">Testing Full Stack</a>
+              <a href="#">Full Stack </a>
+            </div>
+          
+        </li>
+
+        
+        <li class="dropdown">
+        <a href="#" class="dropbtn">About Us</a>
+            <div class="dropdown-content">
+              <a href="/service">Our Services</a>
+              <a href="#">Placement Cell</a>
+        
+        
+        <li class="dropdown">
+          <a href="/login" class="dropbtn">Login</a>
+              <div class="dropdown-content">
+                <a href="/login">Trainer</a>
+                <a href="/login">Students</a>
+
+
+
+        
+                <li class="dropdown">
+                  <a href="/register" class="dropbtn">Register</a>
+                      <div class="dropdown-content">
+                        <a href="/register">Trainer</a>
+                        <a href="/register">Students</a>
+                        
+                        <li class="dropdown">
+                  <a href="/home" class="dropbtn">HomePage</a>
+                      <div class="dropdown-content">
+                        <a href="/TrainerHome">Trainer</a>
+                        <a href="/StudentHome">Students</a>
+                        
+                        <li class="dropdown">
+                  <a href="/users" class="dropbtn">List</a>
+                      <div class="dropdown-content">
+                        <a href="/showCourses">Course</a>
+                        <a href="#">Lesson</a>
+        
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h1>Welcome to LearnSphere</h1>
+      <p>Start your learning journey today!</p>
+      <a href="/register" class="btn">Get Started</a>
+    </section>
+
+
+<section  style="background-color: rgb(221, 255, 027);" >
+  <h2 >About LearnSphere Institute</h2>
+  <span>
+  <p >LearnSphere Institute is a leading online learning platform that offers a wide range of courses to help individuals acquire new skills and knowledge. Our mission is to provide high-quality education and empower learners from all backgrounds to achieve their goals.</p>
+  
+  <p>At LearnSphere Institute, we believe that education should be accessible to everyone. Our platform offers flexible learning options, allowing learners to study at their own pace and convenience. Whether you are a student, professional, or simply curious to learn something new, we have courses that cater to various interests and disciplines.</p>
+  
+  <p>Our team of experienced instructors are experts in their respective fields and are passionate about sharing their knowledge. They design engaging and interactive courses that combine theoretical concepts with practical applications, ensuring that learners gain both theoretical understanding and hands-on skills.</p>
+  
+  <p>Join LearnSphere Institute today and unlock your potential. Explore our course catalog, enroll in your desired courses, and embark on an exciting learning journey with us.</p>
+</section>
+
+   
+      <h2>Popular Courses</h2>
+      <div style="background-color: aqua;" class="course-card">
+        <img src="https://www.w3schools.com/images/w3schools_green.jpg" alt="Course 1">
+        <h1 style="color: brown; ">Java, Python, Web, Database, Data Structure, Algorithm and React JS</h1>
+        <h3>My Career Path 1 (KodNest Premium Full Stack Module)</h3>
+        <p>This career path is carefully designed keeping in mind the individual roles a fresher would want to achieve to get a job as a programmer or a full stack developer or a front-end developer with testing skills basically you will be a multifaceted Techie</p>
+        <a href="/register" class="btn">Enroll Now</a>
+        <a href="/login" class="btn">Login Now</a>
+      </div>
+
+      <div style="background-color: aqua;" class="course-card">
+        <img src="https://www.w3schools.com/images/w3schools_green.jpg" alt="Course 2">
+           <h1 style="color: brown;">Manual and Automation Testing</h1>
+           
+        <h3 >My Career Path 2 (KodNest Premium Testing Module)</h3>
+        <p>This career path is carefully designed keeping in mind the individual roles a fresher would want to achieve to get a job as a Test Engineer( Manual, Automation – Selenium Tool and API Testing)</p>
+        <a href="/register" class="btn">Enroll Now</a>
+        <a href="/login" class="btn">Login Now</a>
+        
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 LearnSphere. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+

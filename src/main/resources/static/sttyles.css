@@ -1,0 +1,196 @@
+/* styles.css */
+
+/* Header Section */
+.logo {
+    width: 150px; /* Adjust the width as needed */
+  }
+  
+  .navigation-menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navigation-menu li {
+    margin-right: 10px;
+  }
+  
+  .navigation-menu li a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  /* Hero Section */
+  .hero {
+    text-align: center;
+    padding: 50px;
+    background-color: #f5f5f5;
+  }
+  
+  .hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .hero h2 {
+    font-size: 24px;
+    color: #666;
+  }
+  
+  /* Features and Benefits Section */
+  .features {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px;
+    background-color: #fff;
+  }
+  
+  .feature-card {
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .feature-card img {
+    width: 50px; /* Adjust the width as needed */
+  }
+  
+  /* Trainer Showcase Section */
+  .trainer-showcase {
+    padding: 50px;
+    background-color: #f5f5f5;
+  }
+  
+  .trainer-showcase h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .trainer-carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .trainer-card {
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Course Offerings Section */
+  .course-offerings {
+    padding: 50px;
+    background-color: #fff;
+  }
+  
+  .course-offerings h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .course-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+  }
+  
+  .course-card {
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Testimonials Section */
+  .testimonials {
+    padding: 50px;
+    background-color: #f5f5f5;
+  }
+  
+  .testimonials h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .testimonial-card {
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .testimonial-card blockquote {
+    font-size: 20px;
+    font-style: italic;
+    margin-bottom: 10px;
+  }
+  
+  .testimonial-card cite {
+    font-weight: bold;
+  }
+  
+  /* Call-to-Action (CTA) */
+  .cta {
+    text-align: center;
+    padding: 50px;
+    background-color: #fff;
+  }
+  
+  .cta h2 {
+    margin-bottom: 30px;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #333;
+    color: #fff;
+    border-radius: 4px;
+  }
+  
+  .cta-button:hover {
+    background-color: #666;
+  }
+  
+  /* Footer Section */
+  footer {
+    padding: 20px;
+    background-color: #f5f5f5;
+    text-align: center;
+  }
+  
+  .contact-info p {
+    margin-bottom: 5px;
+  }
+  
+  .social-icons a {
+    margin: 0 5px;
+  }
+  
+  .footer-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .footer-links li {
+    margin-right: 5px;
+  }
+  
+  .footer-links li a {
+    color: #333;
+    text-decoration: none;
+  }
+  
